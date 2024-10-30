@@ -45,7 +45,12 @@ Para crear un Docker-Compose primero debemos hacer un archivo .yml, en este caso
 El .yml tiene todas las instrucciones necesarias para el funcionamiento e instalación de PrestaShop, por lo que solo hace falta iniciarlo desde docker con los siguientes comandos:
 
     sudo apt install docker-compose
-    docker-compose up -d
+    sudo docker-compose up -d
+
+![Inicio del docker-Compose](/Images_Docker/01_Inicio_Docker.png)
 
 ## 3. Acceso a PrestaShop
 Una vez se inicie el Docker-Compose y el contenedor, accediendo a http://localhost:8080 podremos entrar en nuestra página de PrestaShop
+
+![Inicio del PrestaShop](/Images_Docker/02_Inicio_PrestaShop.png)
+
